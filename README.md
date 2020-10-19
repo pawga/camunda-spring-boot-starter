@@ -14,4 +14,6 @@ Description (russian): https://bpmn2.ru/blog/camunda-cockpit-enterpise-i-excamad
 [Access to admin panel](http://localhost:8080/index.html)
 
 In the settings, specify the endpoint of the rest api Camunda: http://localhost:8080/rest/
+For Camunda 7.14.0: http://localhost:8080/engine-rest/
+
 

@@ -25,9 +25,9 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
 	// Camunda BPM
-	implementation ("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter:3.4.4")
-	implementation ("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-rest:3.4.4")
-	implementation ("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-webapp:3.4.4")
+	implementation ("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter:7.14.0")
+	implementation ("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-rest:7.14.0")
+	implementation ("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-webapp:7.14.0")
 
 	compileOnly("org.projectlombok:lombok")
 	runtimeOnly("com.h2database:h2")

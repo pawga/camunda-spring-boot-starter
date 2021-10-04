@@ -25,12 +25,14 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 
 	// Camunda BPM
-	implementation ("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter:7.14.0")
-	implementation ("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-rest:7.14.0")
-	implementation ("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-webapp:7.14.0")
+	implementation("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-rest:7.15.0")
+	implementation("org.camunda.bpm.springboot:camunda-bpm-spring-boot-starter-webapp:7.15.0")
+	implementation("org.camunda.bpm:camunda-engine-plugin-spin:7.15.0")
+	implementation("org.camunda.spin:camunda-spin-dataformat-all:1.10.1")
 
+	runtimeOnly("com.h2database:h2:1.4.200")
+	runtimeOnly("org.springframework.boot:spring-boot-starter-jdbc:2.4.3")
 	compileOnly("org.projectlombok:lombok")
-	runtimeOnly("com.h2database:h2")
 	annotationProcessor("org.projectlombok:lombok")
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {
 		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")

@@ -34,9 +34,9 @@ dependencies {
 	runtimeOnly("org.springframework.boot:spring-boot-starter-jdbc:2.4.3")
 	compileOnly("org.projectlombok:lombok")
 	annotationProcessor("org.projectlombok:lombok")
-	testImplementation("org.springframework.boot:spring-boot-starter-test") {
-		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
-	}
+//	testImplementation("org.springframework.boot:spring-boot-starter-test") {
+//		exclude(group = "org.junit.vintage", module = "junit-vintage-engine")
+//	}
 }
 
 tasks.withType<Test> {
